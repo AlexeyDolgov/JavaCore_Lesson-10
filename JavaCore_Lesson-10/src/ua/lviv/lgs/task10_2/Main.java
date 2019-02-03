@@ -8,7 +8,7 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Введите текст:");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚:");
 
 		String text = scanner.nextLine();
 
@@ -18,7 +18,7 @@ public class Main {
 	static String replaceVowels(String text) {
 
 		char textArray[] = text.toCharArray();
-		char vowelArray[] = { 'а', 'о', 'э', 'и', 'у', 'ы', 'е', 'ё', 'ю', 'я', 'А', 'О', 'Э', 'И', 'У', 'Ы', 'Е', 'Ё',	'Ю', 'Я' };
+		char vowelArray[] = { 'Р°', 'Рѕ', 'СЌ', 'Рё', 'Сѓ', 'С‹', 'Рµ', 'С‘', 'СЋ', 'СЏ', 'Рђ', 'Рћ', 'Р­', 'Р', 'РЈ', 'Р«', 'Р•', 'РЃ',	'Р®', 'РЇ' };
 
 		for (int i = 0; i < textArray.length; i++) {
 

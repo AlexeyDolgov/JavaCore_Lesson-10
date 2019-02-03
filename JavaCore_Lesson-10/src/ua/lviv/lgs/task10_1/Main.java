@@ -8,7 +8,7 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Введите слово из пяти букв:");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ РёР· РїСЏС‚Рё Р±СѓРєРІ:");
 
 		String word = scanner.next();
 
@@ -16,12 +16,12 @@ public class Main {
 			String wordArray [] = word.split("");
 			
 			if ((wordArray[0].equalsIgnoreCase(wordArray[4])) && (wordArray[1].equalsIgnoreCase(wordArray[3]))) {
-				System.out.println("Введенное слово " + word + " - палиндром!");
+				System.out.println("Р’РІРµРґРµРЅРЅРѕРµ СЃР»РѕРІРѕ " + word + " - РїР°Р»РёРЅРґСЂРѕРј!");
 			} else {
-				System.out.println("Введенное слово " + word + " - не является палиндромом!");
+				System.out.println("Р’РІРµРґРµРЅРЅРѕРµ СЃР»РѕРІРѕ " + word + " - РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј!");
 			}
 		} else {
-			System.out.println("Необходимо ввести слово из пяти букв!");
+			System.out.println("РќРµРѕР±С…РѕРґРёРјРѕ РІРІРµСЃС‚Рё СЃР»РѕРІРѕ РёР· РїСЏС‚Рё Р±СѓРєРІ!");
 		}
 	}
 }
